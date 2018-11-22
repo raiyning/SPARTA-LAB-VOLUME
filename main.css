@@ -19,9 +19,22 @@ object-fit: cover;
 }
 .section2-image1, .section2-image2{
 padding: 2% 0 2% 2%;
-margin-left: 2%;
+/* margin-left: 2%; */
 }
 .section2-left{
   display: flex;
-  flex-direction: row wrap;
+  flex-flow: column nowrap;
+  width: 60%;
+  height: 530px;
+}
+.carousel_container{
+  display: flex;
+  justify-content: center;
+}
+.carousel_logos{
+  height: 200px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
