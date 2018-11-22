@@ -60,3 +60,7 @@ padding: 2% 0 2% 2%;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 25% 25% 25% 25%;
 }
+.section6{
+  display: flex;
+  justify-content: center;
+}
