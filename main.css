@@ -52,5 +52,11 @@ padding: 2% 0 2% 2%;
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
-
+}
+.grid-garden{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
 }
