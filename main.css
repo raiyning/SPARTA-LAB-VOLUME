@@ -1,9 +1,18 @@
 body { 
-  padding-top: 70px; }
+  padding-top: 70px;
+  background-color: #DA667B;
+ }
 
-.navbar-brand img{
-
+.navbar{
+  background-color: #DA667B;
 }
+.container-fluid{
+  background-color: #342A21;
+}
+.navbar-header .navbar-collapse{
+  background-color: #C9B79C;
+}
+
 .section1{
 display: flex;
 justify-content: center;
@@ -15,8 +24,15 @@ object-fit: cover;
 .section2-left{
   display: flex;
   padding-left: 5%;
-  
-}
+  background-color: #F1E0C5;
+  }
+ .section2-left-column{
+   display: flex;
+   height: 700px;
+ } 
+ .jumbotron{
+   background-color: #F1E0C5;
+ }
 .section2-image1, .section2-image2{
 padding: 2% 0 2% 2%;
 /* margin-left: 2%; */
