@@ -1,0 +1,27 @@
+body { 
+  padding-top: 70px; }
+
+.navbar-brand img{
+
+}
+.section1{
+display: flex;
+justify-content: center;
+/* flex-flow: nowrap; */
+/* background-size: cover; */
+/* width: 100%; */
+object-fit: cover;
+}
+.section2-left{
+  display: flex;
+  padding-left: 5%;
+  
+}
+.section2-image1, .section2-image2{
+padding: 2% 0 2% 2%;
+margin-left: 2%;
+}
+.section2-left{
+  display: flex;
+  flex-direction: row wrap;
+}
