@@ -53,14 +53,66 @@ padding: 2% 0 2% 2%;
   padding-left: 5%;
   padding-right: 5%;
 }
-.grid-garden{
-  display: flex;
-  flex-wrap: wrap-reverse;
+.grid-container{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 25% 25% 25% 25%;
+  grid-gap: 5px;
 }
-.section6{
+.grid-container > div {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  background-color: black;
+}
+
+.grid-container > img{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.section5, .section6{
+  display: flex;
+  justify-content: center;
+}
+
+
+.contactus-one .contact-form .form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #342A21;
+  height: 50px;
+}
+.contactus-one .contact-form .form-control {
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+}
+.contact-info > div > p {
+  margin-bottom: 10px;
+}
+.contactus-one .contact-info p i {
+  margin-right: 15px;
+  color: #ee2b63;
+}
+.contactus-one .dart-headingstyle-one .dart-heading:after{
+  left:15px;
+}
+
+::placeholder{
+  color: #342A21;
+}
+
+.normal-btn {
+background: #ee2b63 none repeat scroll 0 0;
+border-radius: 5px;
+border-style: solid;
+margin-bottom: 10px;
+margin-top: 10px;
+text-transform: uppercase;
 }
