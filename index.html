@@ -39,27 +39,23 @@
           </button>
           <a class="navbar-brand" href="index.html">
             <!-- <img alt="Brand" src="/assets/emblemmatic-v-logo-14.png"> -->
-
+            brand
           </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="pages/page1.html">Link <span class="sr-only">(current)</span></a></li>
-            <li><a href="pages/page2.html">Link</a></li>
+
 
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="pages/page1.html">page 1</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="pages/page2.html">page 2</a></li>
-              </ul>
-            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a class="link2." href="#">What we do?</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -166,15 +162,15 @@
               </p>
             </div>
             <!-- need to figure out how to wrap the grid for the right heigh and width to wrap -->
-            <div class="col-lg-8 section4-right grid-garden">
-              <img src="https://www.fillmurray.com/100/100" alt="Image" srcset="">
-              <img src="https://www.fillmurray.com/100/100" alt="Image" srcset="">
-              <img src="https://www.fillmurray.com/100/100" alt="Image" srcset="">
-              <img src="https://www.fillmurray.com/100/100" alt="Image" srcset="">
-              <img src="https://www.fillmurray.com/100/100" alt="Image" srcset="">
-              <img src="https://www.fillmurray.com/100/100" alt="Image" srcset="">
-              <img src="https://www.fillmurray.com/100/100" alt="Image" srcset="">
-              <img src="https://www.fillmurray.com/100/100" alt="Image" srcset="">
+            <div class="col-lg-8 section4-right grid-container">
+              <div class="grid-item item1"><img src="https://www.fillmurray.com/100/100" alt="Image" srcset=""></div>
+              <div class="grid-item item2"><img src="https://www.fillmurray.com/100/100" alt="Image" srcset=""></div>
+              <div class="grid-item item3"><img src="https://www.fillmurray.com/100/100" alt="Image" srcset=""></div>
+              <div class="grid-item item4"><img src="https://www.fillmurray.com/100/100" alt="Image" srcset=""></div>
+              <div class="grid-item item5"><img src="https://www.fillmurray.com/100/100" alt="Image" srcset=""></div>
+              <div class="grid-item item6"><img src="https://www.fillmurray.com/100/100" alt="Image" srcset=""></div>
+              <div class="grid-item item7"><img src="https://www.fillmurray.com/100/100" alt="Image" srcset=""></div>
+              <div class="grid-item item8"><img src="https://www.fillmurray.com/100/100" alt="Image" srcset=""></div>
             </div>
           </div>
         </div>
@@ -184,10 +180,57 @@
   <!-- Section 5 -->
   <div class="section5">
     <div class="row">
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-lg-offset">
+      </div>
+      <div class="col-lg-4">
+        <section class="contactus-one" id="contactus">
+          <!-- Section id-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+              </div>
+              <div class=" col-md-5 col-sm-6">
+                <div class="contact-block">
+                  <div class="dart-headingstyle-one dart-mb-20">
+                    <!--Style 1-->
+                    <h2 class="dart-heading">Request a callback</h2>
+                  </div>
+
+                  <div class="contact-form">
+                    <!-- contact form -->
+                    <form class="row" action="send_email.php" id="contact" name="contact" method="post">
+                      <div class="form-group col-md-6">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your Name"
+                          required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input type="email" class="form-control" name="InputEmail" id="InputEmail" placeholder="Your Email"
+                          required>
+                      </div>
+                      <div class="form-group col-md-12">
+                        <input type="text" class="form-control" name="InputWeb" id="InputWeb" placeholder="Web Site (Optional)">
+                      </div>
+                      <div class="form-group col-md-12">
+                        <textarea class="form-control" name="InputMessage" id="InputMessage" rows="4" placeholder="Message"
+                          required></textarea>
+                      </div>
+                      <div class="col-md-12">
+                        <button name="submit" type="submit" class="btn normal-btn dart-btn-xs">SEND MESSAGE</button>
+                      </div>
+                    </form>
+                  </div>
+
+                  <hr>
+
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-lg-offset">
       </div>
       <!-- form added here -->
-      <div class="form container">
+      <!-- <div class="form container">
         <h2>Vertical (basic) form</h2>
         <form action="/action_page.php">
           <div class="row">
@@ -223,7 +266,8 @@
           </ul>
         </form>
       </div>
-      <div class="col-lg-3"></div>
+      <div class="col-lg-3"></div> -->
+
     </div>
   </div>
   <!-- Section 6 -->
@@ -235,13 +279,30 @@
     </div>
   </div>
   <!-- Section 7 -->
-  <div class="section7">
+  <div class="section7 text-center">
     <div class="row">
       <div class="col-lg-4"></div>
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4"></div>
+      <div class="col-lg-4 container-fluid footer">
+        <div class="row">
+          <div class="col-lg-12">
+            <img class="img-twitter" src="/assets/Twitter_Social_Icon_Circle_Color.png" alt="Twitter Logo">
+            <img class="img-fb" src="/assets/f-ogo_RGB_HEX-58.png" alt="Twitter Logo">
+          </div>
+        </div>
+        <div class="row footer">
+          <div class="col-lg-12 text-center">
+            <h4>support</h4>
+          </div>
+          <div class="row footer">
+            <div class="col-lg-12 text-center">
+              <h4>&copy; Copyright</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4"></div>
+      </div>
     </div>
-  </div>
 
 </body>
 
